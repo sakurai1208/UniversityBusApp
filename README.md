@@ -14,5 +14,23 @@
 * **ツール:** Android Studio, Git
 
 ## 開発背景
-既存の乗換案内アプリでは検索に数ステップかかり、面倒だと感じました。
+複数ブラウザを開いて時刻を確認するのが面倒だと感じました。
 「アプリ起動→即表示」というスピード感を重視し、自分専用のツールとして最適化しました。
+
+## プロジェクト構成
+主要なロジックは以下のファイルに記述されています。
+
+* **メイン処理 (MainActivity.kt):**  [https://github.com/sakurai1208/UniversityBusApp/blob/main/app/src/main/java/com/example/myapplication/MainActivity.kt]
+  ボタン操作時のロジックを記述。
+
+## 起動方法
+1. このリポジトリを `Clone` または `Download ZIP` します。
+2. **Android Studio** を起動し、`Open` からプロジェクトフォルダを選択します。
+3. エミュレータまたは実機（USBデバッグON）を選択して実行ボタンを押してください。
+
+## 動作確認環境
+開発には以下の環境を使用しました。
+* **エミュレータ:** Medium Phone (API 36.0)
+* **実機:** Motorola Device
+
+
