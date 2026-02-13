@@ -66,7 +66,7 @@ fun HomeScreen(modifier: Modifier = Modifier) {
             val now = LocalTime.now()
             val nextTimes = mutableListOf<String>()
 
-            reader.readLine() // skip header
+            reader.readLine()
             var line: String?
             while (reader.readLine().also { line = it } != null) {
                 val parts = line!!.split(",")
